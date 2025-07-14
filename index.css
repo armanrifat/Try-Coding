@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
      box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
 }
 
 .container{
@@ -18,6 +21,11 @@
      border: none;
      color: white;
      font-weight: 600;
+}
+
+.common-section-title{
+     font-weight: 600;
+     font-size: 36px;
 }
 
 nav{
@@ -92,4 +100,53 @@ nav{
      margin-bottom: 35px;
      display: block;
      margin-bottom: 0;
+}
+
+/* category */
+.categories{
+    
+}
+
+.categories-card-container{
+     display: flex;
+     gap: 26px;
+     width: 100%;
+}
+
+.category-card{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 4px;
+     padding: 20px;
+     border-radius: 10px;
+     flex: 1;
+}
+
+.category-card h3{
+     color: white;
+     font-weight: bold;
+     font-size: 30px;
+}
+
+.category-card-1{
+     background: linear-gradient(
+          151.85deg,
+          rgb(255, 156, 53) 14.537%,
+          rgb(255, 208, 25) 84.486%
+     );
+}
+.category-card-2{
+     background: linear-gradient(
+          180deg,
+          rgb(255, 88, 155) -0.006%,
+          rgb(255, 19, 111) 99.994%
+     );
+}
+.category-card-3{
+     background: linear-gradient(
+          170.30deg,
+          rgb(66, 137, 255) 15.416%,
+          rgb(63, 7, 248) 74.29%
+     );
 }
